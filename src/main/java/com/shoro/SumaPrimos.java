@@ -1,5 +1,31 @@
 package com.shoro;
 
+/**
+ * Entrega 2 Semana 5
+ *
+ * Ejercicio 3 - Suma de Números Primos
+ *
+ * Programa que solicita al usuario un número entero positivo y calcula
+ * la suma de todos los números primos menores o iguales al valor ingresado.
+ *
+ * El programa valida que la entrada sea un número entero dentro del rango
+ * permitido y utiliza ciclos para recorrer los valores desde 2 hasta n.
+ *
+ * Para cada número, verifica si es primo comprobando si posee algún divisor
+ * exacto distinto de 1 y de sí mismo. Los números identificados como primos
+ * se acumulan en una variable de tipo long para evitar desbordamientos.
+ *
+ * Finalmente, muestra en consola la suma total de los números primos
+ * menores o iguales al número ingresado por el usuario.
+ *
+ * Integrantes:
+ * - Mariano Estrada Jaramillo
+ * - Johnny Florez Mogollon
+ * - Deici Hernandez Gutierrez
+ * - Miguel Mesa Barrientos
+ * - Mario Niño Cortés
+ */
+
 import java.util.Scanner;
 
 public class SumaPrimos {
