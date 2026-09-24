@@ -13,7 +13,7 @@ package com.shoro;
  *
  * Para cada número, verifica si es primo comprobando si posee algún divisor
  * exacto distinto de 1 y de sí mismo. Los números identificados como primos
- * se acumulan en una variable de tipo long para evitar desbordamientos.
+ * se acumulan en una variable suma.
  *
  * Finalmente, muestra en consola la suma total de los números primos
  * menores o iguales al número ingresado por el usuario.
