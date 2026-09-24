@@ -37,3 +37,19 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### IntelliJ IDEA (additional) ###
+.idea/
+*.class
+*.log
+hs_err_pid*
+
+### Maven wrapper (keep jar, ignore everything else generated) ###
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
